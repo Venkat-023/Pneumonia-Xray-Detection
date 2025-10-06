@@ -51,31 +51,37 @@ Overfitting	❌ None
 Training Time	~10–20 min (depends on hardware)
 
 💻 How to Run
+
 1️⃣ Clone the Repository
 bash
-Copy
-Edit
+
 git clone https://github.com/yourusername/pneumonia-xray-detection.git
+
 cd pneumonia-xray-detection
+
 2️⃣ Install Dependencies
+
 bash
-Copy
-Edit
+
 pip install -r requirements.txt
+
 3️⃣ Download and Prepare Dataset
+
 Download the dataset from Kaggle
 
 Unzip it into a folder named data/ inside the project root
+
 4️⃣ Train the Model
+
 bash
-Copy
-Edit
+
 python train.py
+
 5️⃣ Predict on a New Image
 bash
-Copy
-Edit
+
 python predict.py --image path/to/your/xray.jpg
+
 📦 Requirements
 txt
 Copy
@@ -88,8 +94,7 @@ scikit-learn
 Generate this file using:
 
 bash
-Copy
-Edit
+
 pip freeze > requirements.txt
 📸 Sample Prediction
 Chest X-ray	Prediction
