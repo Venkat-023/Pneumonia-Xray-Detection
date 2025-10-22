@@ -1,4 +1,4 @@
-🩺 Pneumonia Detection from Chest X-ray Images using a Custom CNN
+Pneumonia Detection from Chest X-ray Images using a Custom CNN
 This project presents a deep learning solution for detecting pneumonia from chest X-ray images using a Convolutional Neural Network (CNN) built entirely from scratch. The model achieves an impressive 99.90% validation accuracy without overfitting, demonstrating the power of custom neural network architectures for real-world medical imaging tasks.
 
 📌 Project Highlights
